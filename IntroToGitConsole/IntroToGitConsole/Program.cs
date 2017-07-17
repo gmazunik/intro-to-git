@@ -12,6 +12,16 @@ namespace IntroToGitConsole
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Another damn line...");
+            foreach(var str in DisplayStrings())
+            {
+                Console.WriteLine(str);
+            }
+            Console.ReadLine();
+        }
+
+        static string[] DisplayStrings()
+        {
+            return new string[] { "String 1", "String 2" };
         }
     }
 }
