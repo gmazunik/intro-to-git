@@ -11,6 +11,7 @@ namespace IntroToGitConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Another damn line...");
         }
     }
 }
