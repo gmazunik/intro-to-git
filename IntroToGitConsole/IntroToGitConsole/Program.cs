@@ -16,11 +16,12 @@ namespace IntroToGitConsole
             {
                 Console.WriteLine(str);
             }
+            Console.ReadLine();
         }
 
         static string[] DisplayStrings()
         {
-            return ["String 1", "String 2"];
+            return new string[] { "String 1", "String 2" };
         }
     }
 }
